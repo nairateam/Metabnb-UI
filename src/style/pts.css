@@ -1,0 +1,39 @@
+.pts{
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 2rem;
+    padding-bottom: 1rem;
+    gap: 2rem;
+}
+.pts > .places{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    overflow: auto;
+}
+
+.places > button{
+    display: flex;
+    word-break: keep-all;
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    color: #434343;
+}
+
+.location{
+    position: relative;
+    z-index: -1;
+}
+.location > input{
+    padding: 0.5rem;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+}
+.location > span{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+}
